@@ -1,0 +1,10 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "bookstore"]
+	url = https://github.com/JiaWenQing/bookstore.git
+	fetch = +refs/heads/*:refs/remotes/bookstore/*
+	pushurl = https://github.com/JiaWenQing/bookstore.git
